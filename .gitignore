@@ -1,0 +1,5 @@
+# Files not be uploaded for github
+*aux
+*.log
+*.out
+*.gz
