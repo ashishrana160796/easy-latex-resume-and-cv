@@ -1,4 +1,4 @@
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,9.5pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -70,7 +70,7 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://linkedin.com/in/ashishrana160796/}{\Large Ashish Rana}} & Email : \href{mailto:ashishrana160796@gmail.com}{ashishrana160796@gmail.com}\\
   \href{https://ashishrana160796.github.io/}{ashishrana160796.github.io} & Mobile : +91-94573-95571 \\
-  \href{https://linkedin.com/in/ashishrana160796/}{linkedin.com/in/ashishrana160796} & \href{http://github.com/ashishrana160796/}{github.com/ashishrana160796} \\
+  \href{https://linkedin.com/in/ashishrana160796/}{LinkedIn : linkedin.com/in/ashishrana160796} & \href{http://github.com/ashishrana160796/}{Github : github.com/ashishrana160796} \\
 \end{tabular*}
 
 
@@ -79,72 +79,76 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {GE Healthcare}{Product Lifecycle Management Development Team, Bengaluru}
-      {Software Engineering Intern, GE Digital}{Jun 2018 - July 2018}
+      {American Express}{\textit{Next Generation Data Management Team, Bengaluru}}
+      {Data Engineering Intern}{Jan 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Automation, Data pipeline and Administrative Scripts }
+          {For monitoring stats of Couchbase VMs, multiprocessing VM patching and automating post provisioning steps. Reducing resource comsumption upto 50 to 90 \% for multiple tasks.}
+        \resumeItem{Researching Next Generation Cloud Databases}
+          {Benchmarking their results \& architecture analysis with current existing industrial datastores.}
+        \resumeItem{Research \& Development of Database Monitoring Tools*}
+          {Graphana \& Splunk visualization with Elasticsearch \& Prometheus datastores with Python, Ansible \& Golang scripts.}
+        \resumeItem{Extra Initiatives}
+          {Built a clustering based recommendation system and In-house human technical resource helper tool by scraping Confluence pages for CIO's presentation. Working with multi-disciplinary teams and developing business use-case understanding. Planned and organized intern outings, birthdays \& farewells. }
+      \resumeItemListEnd
+      
+
+    \resumeSubheading
+      {GE}{\textit{Product Lifecycle Management COE Team, Bengaluru}}
+      {Software Engineering Intern}{Jun 2018 - July 2018}
       \resumeItemListStart
         \resumeItem{ReST Web-Services}
           {Implemented ReST web-services from legacy SOAP with microservices compatible concept.}
         \resumeItem{SSO SAML Authentication}
           {Resolved logout and reauthentication issues, increased the use case coverage.}
         \resumeItem{Static Tool Analysis}
-          {POC case study w/ multiple tools and Enterprise scale solutions designed, github contributions.}
+          {POC case study w/ multiple tools and Enterprise scale solutions designed, github contributions to original tools.}
         \resumeItem{UI Enchancements}
           {Dialog box help designed and implemented with custom library compatible code, reduces user effort.}
         \resumeItem{Functional Learnings}
-          {Business understanding, international team interactions, gap analysis, stretch assignments.}
+          {Business understanding for application user base of 40,000, international team meetings, presented curriculum and solutions with extensive documentation, gap analysis, stretch assignments initiative.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-
+\section{Recent Achievements}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Global Rank: 210, October Mega Cook-Off 2018}
+      {achieved on Codechef coding platform for username rana\textunderscore160796.}
+    \resumeSubItem{Author,  TowardsDataScience \& AnalyticsVidhya}
+      {Published several articles on Deep Learning, ML, AI and Reinforcement learning with 38K+  views and 225+ unique recommendations.}
+  \resumeSubHeadingListEnd
 %-----------PROJECTS-----------------
 \section{Selected Projects}
   \resumeSubHeadingListStart
+    \resumeSubItem{Clustering Based Online Recommendation System}
+      {Based on course data from Pluralsight a clustering and LDA based recommendation system that uses elbow method for finding approximate number of cluster to minimize SSE.}
     \resumeSubItem{CheckerFramework, Contributor}
       {2500+ lines of code committed, for jdk annotations. Created prototype type system for determinism in code. Minor contributions, other tools and case study done for Enterprise applications.}
     \resumeSubItem{Optimization Algorithm GUI}
       {Convergence calculations for multidimensional fitness functions. Algorithms available like DE, GA, PSO, Random Walk. Extra comparative	python implementation for efficiency comparison.}
-    \resumeSubItem{TreasureHunt Game App}
-      {Uses Zbar library for QR code scanning ability. Puzzle editability in admin mode available.}
+
     \resumeSubItem{Aimacode, Contributor}
       {Contributing AI pseudocode algorithms. Specification Issues raised for aima/java.}
     \resumeSubItem{Markov Chain Music Generator}
-      {Music generation of Indian classical music with finite visible markov chains w/ \textit{mido}.}
-    \resumeSubItem{Deep Vision Tool: Final Year Project, \textit{In Progress}}
-      {
+      {Music generation of Indian classical music with finite visible markov chains with \textit{mido}.}
+    \resumeSubItem{Deep Vision Tool: Final Year Project}
+      { 
+        Deep learning deployment solutions with Desktop based GUI and custom E-mail based replies for VQA based object classification \& Activity Classfication module.
 	    \resumeItemListStart
         \resumeItem{Chatbot Module}
-          {NLP Chatbot with decision flows, personality. Use cases: troubleshooting problems, recruiting.}
-        \resumeItem{Object Classification Module}
-          {CNN trained, used for product and brand identification, similar suggestions from DB.}
-        \resumeItem{Activity Classification Module}
-          {RNN trained, applied for visual aid with auto-recite submodule in it.}
-        \resumeItem{Depth Analysis Module}
-          {CNN trained for relative depth estimation. For use cases like visual aid, image depth map.}
+          {NLP query helper Chatbot with LSSVM based intent detection decision flows and encoded personality.}
        \resumeItemListEnd
       }
+          \resumeSubItem{TreasureHunt App}
+      {Zbar library for QR code scanning used. With puzzle editability and test concurrency for 400 users.}
   \resumeSubHeadingListEnd
-
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Thapar Institute of Engineering and Technology}{Patiala, Punjab}
-      {Computer Engineering, CGPA: 9.42}{2015 -- Present}
-    \resumeSubheading
-      {Army Public School}{Meerut Cantt, U.P}
-      {12th,  Percent: 91.00}{2013 -- 2014}
-    \resumeSubheading
-      {Army Public School}{Jalandhar Cantt, Punjab}
-      {10th,  Percent: 93.10}{2011 -- 2012}      
-  \resumeSubHeadingListEnd
-
 
 %--------PROGRAMMING SKILLS------------
 \section{Skills}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Languages}{: Java}{(\textit{Proficient})}{,}{ Python}{,}{ R}{,}{ Shell}{ Scripting}{,}{ C}{,}{ C++}{,}{ SQL}{,}{ PL/SQL}{,}{ JS}{,}{ jQuery}{,}{ MatLab}{,}{ UML}{,}{ ARM}{,}{ Verilog}{,}{ 8085}{,}{ 8086}{,}{ Arduino}
-      \textbf{, Technologies: }{ Static Analysis Tools}{,}{ SAML}{,}{ SiteMinder}{,}{ Tensorflow}{,}{ NetworkX}{,}{ nltk}{,}{ Tkinter}{,}{ Git}{,}{ Linux}{,}{ Jekyll}{,}{ Adobe Suite}{,}{ Microsoft Suite}
+      \textbf{Languages}{: Java}{(\textit{Proficient})}{,}{ Python}{(\textit{Proficient})}{,}{ Ansible}{,}{ R}{,}{ Shell}{ Scripting}{,}{ C}{,}{ C++}{,}{ SQL}{,}{ PL/SQL}{,}{ JS}{,}{ jQuery}{,}{ MatLab}{,}{ UML}{,}{ ARM}{,}{ Verilog}{,}{ 8085}{,}{ 8086}{,}{ Arduino}
+      \textbf{, Technologies: }{ Scikit-learn}{,}{ Tensorflow}{,}{PyTorch}{,}{ NetworkX}{,}{ nltk}{,}{ Tkinter}{,}{ Git}{,}{ Linux}{,}{ Static Analysis Tools}{,}{ SAML}{,}{ SiteMinder}{,}{ Jekyll}{,}{ Adobe Suite}{,}{ Microsoft Suite}
     }
   \resumeSubHeadingListEnd
 
@@ -152,9 +156,9 @@
 \section{Courses}
   \resumeSubHeadingListStart
     \item{
-      \textbf{In Progress:}{ Deep Learning}{,}{ Blockchain and Industrial Use Cases}{,}{ Mathematical Puzzles}{,}{ Compilers}
-      \textbf{Elective:}{ AI}{,}{ ML}{,}{ NLP}{,}{ Data Analytics}{,}{ Social Networks}{,}{ Search Methods in AI}{,}{ Cloud Computing}
-      \textbf{, Core:}{ Image Processing}{,}{ Advanced Data Structure And Algorithms}{,}{ Software Engineering}{,}{ Information Management}{,}{ Numerical Analysis}{,}{ Optimizations}{,}{ Discrete Mathematics}{,}{ Networking}{,}{ OS}{,}{ TOC}{,}{ Computer Architecture}{,}{ Microprocessors}{,}{ Embedded Systems}   
+      
+      \textbf{Elective:}{ Deep Learning}{,}{ AI Search Methods}{,}{ ML}{,}{ NLP}{,}{ Data Analytics}{,}{ Data Mining}{,}{ Social Networks}{,}{ Cloud Computing}
+      \textbf{, Core:}{ Image Processing}{,}{ Advanced Data Structure And Algorithms}{,}{ Software Engineering}{,}{ Information Management}{,}{ Numerical Analysis}{,}{ Optimizations}{,}{ Discrete Mathematics}{,}{ Networking}{,}{ OS}{,}{ TOC}{,}{ Compilers}{,}{ Computer Architecture}{,}{ Microprocessors}{,}{ Embedded Systems}
          }
   \resumeSubHeadingListEnd
 
@@ -162,10 +166,10 @@
 \section{Co-curriculars}
   \resumeSubHeadingListStart
     \item{
-      \textbf{OWASP: Design Head, }{leadership for producing sophisticated and professional designs on Photoshop suite.}
+      \textbf{OWASP: Design Head, }{produced sophisticated and professional designs with Photoshop suite.}
          }
     \item{
-      \textbf{MARS(\textit{Robotics Society}): Core Team, }{Conducting workshops on maze-solvers, Arduino.}
+      \textbf{MARS(\textit{Robotics Society}): Core Team, }{Conducting workshops on maze-solvers, Arduino and advanced C++.}
          }
     \item{
       \textbf{Scimatics: Mentor, Design Head }{Conducting workshops on Java, C++, Arduino, graphic design. Mentoring juniors and Event management.}
@@ -177,6 +181,17 @@
       \textbf{Academics: }{Gold Medalist: Social Network(\textit{NPTEL-Course}), Gold Medalist: First Year(\textit{Branch}), Gold Medalist: School IMO}
          }         
 
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Thapar Institute of Engineering and Technology}{Patiala, Punjab}
+      {Computer Engineering, \textbf{CGPA: 9.45}}{2015 -- Present}
+    \resumeSubheading
+      {Army Public School}{Meerut Cantt, U.P : Jalandhar Cantt, Punjab}
+      {12th,  \textbf{Percent: 91.00} : 10th,  \textbf{Percent: 93.10}}{2013 -- 2014 : 2011 -- 2012}
   \resumeSubHeadingListEnd
 
 %-------------------------------------------
