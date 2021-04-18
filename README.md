@@ -4,6 +4,13 @@ This repository contains single column resume and two column CV latex code with 
 
 The latex code is _Unlicensed_ as it's completely borrowed from the below referenced repository with minor practical changes in the latex code for my use.
 
+<p align="center">
+  <img src="assets/one-page-resume.png" width="300" />
+  <img src="assets/dual-column-cv-one.png" width="300" /> 
+  <img src="assets/dual-column-cv-two.png" width="300" /><br/>	
+  <b><em>Left:</em></b> single page & single column resume, <b><em>Center & Right:</em></b> dual column curriculum vitae
+</p> 
+
 ## Original Latex code Credits
 
 I have altered the code as per my requirements and have added comments in latex code as well for more simple editing experience. But, in case you are interested in working with the original latex source code.

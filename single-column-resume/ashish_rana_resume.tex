@@ -1,4 +1,4 @@
-\documentclass[letterpaper,12pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -63,8 +63,9 @@
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
+
+%% For editing: Replace the original content with your text entries after correctly looking at sematics below before editing.
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -73,6 +74,7 @@
   \href{https://linkedin.com/in/ashishrana160796/}{LinkedIn : linkedin.com/in/ashishrana160796} & \href{http://github.com/ashishrana160796/}{Github : github.com/ashishrana160796} \\
 \end{tabular*}
 
+%% For editing: add \resumeSubItem tag with first curly braces containing heading and second corresponding content.
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -82,11 +84,11 @@
       {GE Healthcare}{\textit{Data and Analytics Team, Bengaluru}}
       {Data Engineering Specialist}{Aug 2019 - Present}
       \resumeItemListStart
-          \resumeItem{Modality outlier detection and Predictive maintenance}
+          \resumeItem{Modality outlier detection \& Predictive maintenance}
           {Time Series data forecasting for unsupervised outlier analysis from machine sensor data. Second, predicting machine failures with Weibull Regression by estimating hazard functions. Both are targeted to provide better customer service \& save additional resource expenditure.
           }
-          \resumeItem{Developing, testing and deploying ingestion procedures}
-          {TeraByte scale data in AWS Redshift, conducting automated tested and automating procedure execution with step functions. Saving hours of manual testing efforts and two times recipient of \textit{Impact Award} for excellent development efforts. In addition, gone through AWS Big Data and RedShift Data warehousing trainings.
+          \resumeItem{Architecture Designing, Developing, testing \& deploying ingestion procedures}
+          {Ingesting TeraByte scale data in AWS Redshift w/ PL/pgSQL \& Elasticsearch w/ Spark Python scripts, automated testing \& procedure execution w/ step functions. Saving hours of manual testing efforts \& two times recipient of \textit{Impact Award} for excellent development efforts. In addition, gone through several AWS big data \& warehousing trainings.
           }
       \resumeItemListEnd
 
@@ -114,6 +116,8 @@
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
+%% For editing: add \resumeSubItem tag with first curly braces containing heading and second corresponding content.
+
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
@@ -125,41 +129,45 @@
       {\textbf{12th Percent: 91.00} \textbf{,} \textbf{10th Percent: 93.10}}{2013 -- 2014 : 2011 -- 2012}
   \resumeSubHeadingListEnd
 
-%-----------EDUCATION-----------------
-\section{Public Developer Contributions and Coding Experience}
-  \resumeSubHeadingListStart
+%% For editing: add \resumeSubItem tag with first curly braces containing heading and second corresponding content.
 
+%-----------PUBLICATIONS AND PRESENTATIONS-----------------
+\section{Additional Coding Experience}
+  \resumeSubHeadingListStart
+      \resumeSubItem{Building Safer Autonomous Agents, arxiv:2103.10245}
+      {Trained agents w/ collision simulation knowledge from driving scenarios }
       \resumeSubItem{liveProject Creator, Manning Publications}
-      {Currently designing reinforcement learning project which systematically prototypes navigation agents for OpenAI environments. \textit{(Ongoing)} }      
+      {Designed reinforcement learning project which systematically prototypes driving agents for OpenAI environments. \textit{(Ongoing)} }      
       \resumeSubItem{Couchbase Connect 2020, Presentor, Automated Couchbase Monitoring}
       {Automated Couchbase monitoring with ReST HTTP server and orchestrated Prometheus \& Grafana integrations as well. Presented a predictive use case with \textit{fbprophet} and \textit{PyOD} outlier analysis.  \textit{(Ongoing)} }
        \resumeSubItem{COVID-19 Fast track submission, IEEE TNNLS}
       {Research paper under peer review on prognostic severity analysis with SSD networks on a annotated dataset COVID-19 CT-images dataset written with PGI, Chandigarh researchers. \textit{(Ongoing)}}
        \resumeSubItem{ICTAI 2019, CalcNet Paper Author}
-      {Research paper published on natural numerical calculation with neural networks with mathematical function decomposition approach with collaborators from Aalto University, Finland.}
-      \resumeSubItem{Comparative case study, Computer vision networks}
-      {Research paper in arxiv: 2004.06674 on regression based end-to-end cell counting with numerically biased concatenated layers achieving better accuracy than conventional FCRN \& U-net CNN architectures.}
+      {Natural numerical calculation approximations using MLPs w/ mathematical function decomposition approach.}
+      \resumeSubItem{Cell counting with FCRN \& U-net variants, arxiv: 2004.06674}
+      {Regression based end-to-end cell counting with numerically biased residual NALU/NAC layers for achieving better accuracy.}
        \resumeSubItem{Author: Hackernoon, TowardsDataScience \& AnalyticsVidhya}
-      {Published articles on Deep Learning, ML, AI and Reinforcement learning with 120K+  views and 400+ unique recommendations. Also, published the highest rated top weekly story on Hackernoon.}
-      \resumeSubItem{Machine Learning Hackathons}
-      {In Top 5\% solutions for ZS Data Science 2019 Challenge. In Top 15\% solutions in Imarticus Car price prediction Challenge. \& Top 11\% Analytic Vidhya's India 2019 Hackathon. }
-    \resumeSubItem{CheckerFramework and Aimacode, Relevant Contributor}
-      {2500+ lines of code committed, for jdk annotations in \textit{typetools}. Created own prototype of type system for determinism in Java code. In Aimacode, contribution to AI pseudocode for multiple algorithms.}
-     \resumeSubItem{Global Rank: 210 Div 2, October Mega Cook-Off 2018}
-      {On Codechef coding platform for username rana\textunderscore160796.}
+      {Published articles on Deep Learning, ML, AI and Reinforcement learning with 120K+  views and 400+ unique recommendations, highest rated top weekly story on Hackernoon.}
   \resumeSubHeadingListEnd
+
+%% For editing: add \resumeSubItem tag with first curly braces containing heading and second corresponding content.
+
 %-----------PROJECTS-----------------
 \section{Selected Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{Single shot detector (SSD) and counter}
-      {Implementing fairly good SSD with 240k parameters only on grocery object detection dataset and achieving comparable performance to 24 million parameter SSD300 model.}
+    \resumeSubItem{Single shot detector (SSD) \& Counter}
+      {Implementing compact SSD with 240K parameters only on grocery object detection dataset \& achieved comparable performance 24M parameter SSD300 model w/ data augmentation, hyperparameter tuning.}
     \resumeSubItem{Clustering Based Recommendation System}
-      {Based on course data from Pluralsight a clustering and LDA based recommendation system that uses elbow method for finding approximate number of clusters to minimize SSE.}
+      {Pluralsight course description data K-means clustering for SSE minimization with elbow method \& LDA based recommendation system for course recommendations.}
     \resumeSubItem{OCR Denoiser for Digital PDFs}
-      {Multi-processing design with recursive Levenshtein spell checker, numerical error remover and currency symbol handler. Holds higher accuracy than Tesseract \& extendable ever improving design.}
+      {Multi-processing design with recursive Levenshtein spell checker, numerical error remover and currency symbol handler w/ extendable design.}
   \resumeSubHeadingListEnd
 
-%-- \iffalse
+%% Comment the below \ifflase and \fi tags for displaying the below Skills section.
+%% Separate brackets assists in parsing Skills below as separate tags with Resume parsers.
+%% For editing: Add a skill below within the brackets "{}" and separate them with commas.
+
+\iffalse
 %--------PROGRAMMING SKILLS------------
 \section{Skills}
   \resumeSubHeadingListStart
@@ -167,27 +175,28 @@
 		 {Cloud computing}, {Data warehousing}, {Deep Learning}, {Machine Learning}, {Natural Language Processing}, {Data analytics and AI Search Methods}, {Data Mining} , {Image Processing}, {Advanced Data Structure and Algorithms}, {Software Engineering}, {Information Management}.
     }
   \resumeSubHeadingListEnd
-  
-%%-- \fi
+\fi
 
+%% Comment the below \ifflase and \fi tags for displaying the below Skills section.
+%% Comment the below \ifflase and \fi tags for displaying and editing the below item lists content.
+%% For editing: add \resumeSubItem tag with first curly braces containing heading and second corresponding content.
 
-
-% \iffalse
+\iffalse
 %--------CO-CURRICULARS------------
 \section{Co-curriculars}
   \resumeSubHeadingListStart
 
+	\iffalse
     \resumeSubItem{OWASP Chapter Design Head: }{produced professional designs with Photoshop 			suite.}
-     \resumeSubItem{MARS(\textit{Robotics Society})}{ Core Team: Maze-solvers Arduino \& advanced C++ workshops conducted.}
-    \resumeSubItem{Scimatics Mentor, Design Head: }
-	{Java, C++, Arduino, graphic design workshops conducted.}
+    \fi
+     \resumeSubItem{MARS(\textit{Robotics Society}): }{Core Team Maze-solvers w/ Arduino \& given advanced C++ workshops.}
+    \resumeSubItem{Scimatics Mentor \& Design Head: }
+	{Given Java, C++, Arduino \& graphic design workshops}
     \resumeSubItem{Voluntary Experience: }
-	 {Destitute home \& Orphanage visits, Blood donor \& Charity participation.}
-    \resumeSubItem{Academics Gold Medalist:}{Social Network(\textit{NPTEL-Course}), First Year(\textit{Branch}), High School IMO}
-
+	 {Destitute home \& Orphanage visits, Blood donor \& Charity donations.}
+    \resumeSubItem{Academics Gold Medalist: }{Social Network(\textit{NPTEL-Course}), First Year(\textit{Branch}), High School SOF IMO}
   \resumeSubHeadingListEnd
-
-% \fi
+\fi
 
 %-------------------------------------------
 \end{document}
